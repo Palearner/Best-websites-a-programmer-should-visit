@@ -1,0 +1,18 @@
+import re
+my_truth_fact=re.compile(r'12(2)?333')
+my_num=re.compile(r'\d\d(\d)?\d\d\d')
+myinfo=my_truth.search("There i saw Batwoman 122333 or 12333")
+myinfo2=my_num.search("There i saw Batwoman 122333 or 12333")
+print(myinfo)
+
+print(myinfo2)
+
+..............................
+
+My out put is:
+None
+<re.Match object; span=(21, 27), match='122333'>
+
+----------------------------------------
+My expected answer for line 6 is not "None".
+Where am I wrong?
